@@ -2,8 +2,8 @@ package main
 
 import (
 	"go-api/cmd/api"
-	"go-api/cmd/config"
-	"go-api/cmd/db"
+	"go-api/config"
+	"go-api/db"
 
 	"github.com/go-sql-driver/mysql"
 )
