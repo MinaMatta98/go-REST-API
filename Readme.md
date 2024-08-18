@@ -19,7 +19,12 @@ Features include:
 go run ./cmd/main.go
 ```
 
+Make sure that the database is setup and the corrosponding Database name is saved in your `.env` file with a variable name of `DATABASE_URL` and password as `DB_PASSWORD`.
+
 ## Requirements
 The following are the base requirements:
 - [mariadb](https://mariadb.org/download/) 
 - [GoLang](https://go.dev/) version >= 1.20 (Or atleast that's what i'm certain it works on)
+
+> [!NOTE]
+> Happy Coding!
